@@ -1,28 +1,24 @@
-"""import sys
-a = input()
-a=int(a)
-step=0
+#!/usr/bin/python3.6
+# -*- coding: UTF-8 -*- 
 
-if a>1000:
-    raise Exception('Number > 1000')
-    
-while(a!=1):
-    if a%2:
-        a = (3*a+1)//2
-        print(a)
-    else:
-        a=a//2
-        print(a)
-    step=step+1
-
-print('---------')
-print(step)
 """
+Calculate a+b and output the sum in standard format -- that is, the digits must be separated into groups of three by commas (unless there are less than four digits).
+Input Specification:
+
+Each input file contains one test case. Each case contains a pair of integers a and b where −10​6​​≤a,b≤10​6​​. The numbers are separated by a space.
+Output Specification:
+
+For each test case, you should output the sum of a and b in one line. The sum must be written in the standard format.
+Sample Input:
+
+-1000000 9
+
+Sample Output:
+
+-999,991
 
 
 # A+B Format
-#!/usr/bin/python
-# -*- coding: UTF-8 -*- 
 # 输入 -546465 -4564
 # 输出 格式化和 -551,029
 
@@ -31,7 +27,7 @@ print(step)
 # 正则表达式 https://www.jianshu.com/p/5295c5988b7f
 
 #python中的字符数字之间的转换函数
-"""
+
 int(x [,base ])         将x转换为一个整数    
 long(x [,base ])        将x转换为一个长整数    
 float(x )               将x转换到一个浮点数    
@@ -81,3 +77,5 @@ if match:
     print(number)
     
     print(num_format(number))
+
+
