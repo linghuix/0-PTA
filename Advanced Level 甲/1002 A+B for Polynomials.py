@@ -22,8 +22,9 @@ Sample Output:
 
 3 2 1.5 1 2.9 0 3.2
 
-
 """
+
+
 
 def main():
 
